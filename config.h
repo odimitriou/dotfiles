@@ -11,25 +11,19 @@ static const char dmenufont[]       = "Source Code Pro:size=10";
 static const char col_gray1[]       = "#8c8c8c";
 static const char col_black[]       = "#000000";
 static const char col_white[]       = "#ffffff";
-//static const char col_gray4[]       = "#ffffff";
 static const char col_cyan[]        = "#005577";
 static const char col_red[]         = "#fc0303";
 
-//#include "/home/oran/.cache/wal/colors-wal-dwm.h"
-
-//#if __has_include(wal)
-//#include wal
-//#else
 static const char col_cyan_light[]  = "#08cfc8";
 static const char col_brown[]	    = "#613401";
 static const char col_urgborder[]   = "#ff0000";
 static const char *colors[][3]      = {
-//	/*               fg         bg         border   */
+	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray1, col_black, col_black },
 	[SchemeSel]  = { col_gray1, col_black, col_black },
 	[SchemeUrg]  = { col_gray1, col_cyan, col_urgborder },
 };
-//#endif
+
 
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
