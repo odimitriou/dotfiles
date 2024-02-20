@@ -12,5 +12,6 @@ mkdir -p ~/.config/alacritty/themes
 git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
 
 # Set tmux.conf
+mkdir ~/.config/tmux
 mv ~/tmp/tmux.conf ~/.config/tmux/tmux.conf
 tmux source ~/.config/tmux/tmux.conf
