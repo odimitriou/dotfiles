@@ -11,4 +11,4 @@ chmod +x ~/tmp/dots_install.sh
 ```
 After the script the dotfiles should be in the correct locations. So I can go ahead and remove the temp directory.
 
-`rm -r ~/tmp`
+``rm -r ~/tmp``
