@@ -1,5 +1,5 @@
 # Dotfiles
-This is my dotfiles repository. Feel free to yank anything.
+This is my dotfiles repository.
 ## Install script
 The **dots_install.sh** is a bash script that is responsible to set the correct dotfiles to the 
 corresponding locations in the file system.
