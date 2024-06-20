@@ -6,6 +6,7 @@
 alias ll='ls -la'
 alias ls='ls -l --color=auto'
 alias grep='grep --color=auto'
+alias open='xdg-open'
 
 ################## BASH PROMPTS ####################
 
@@ -20,5 +21,5 @@ alias grep='grep --color=auto'
 
 # user@host pwd $
 #export PS1="\[$(tput setaf 201)\]\u\[$(tput setaf 201)\]@\[$(tput setaf 201)\]\h \[$(tput setaf 214)\]\w \[$(tput sgr0)\]$ "
-export PS1="\[$(tput setaf 12)\]\u\[$(tput setaf 12)\]@\[$(tput setaf 12)\]\h \[$(tput setaf 208)\]\w \[$(tput sgr0)\]$ "
+export PS1="\[$(tput setaf 12)\]\u\[$(tput setaf 12)\]@\[$(tput setaf 12)\]\h \[$(tput setaf 208)\]\w\[$(tput sgr0)\]$ "
 
