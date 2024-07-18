@@ -23,3 +23,7 @@ mv ~/tmp/wallpapers ~/Pictures/
 # Zathura
 mkdir -p ~/.config/zathura
 mv ~/tmp/zathurarc ~/.config/zathura/ 
+
+# Neovim
+mkdir -p ~/.config/nvim
+mv -r ~/tmp/nvim/ ~/.config/nvim
