@@ -18,7 +18,7 @@ tmux source ~/.config/tmux/tmux.conf
 
 # Wallpapers
 mkdir -p ~/Pictures
-mv ~/tmp/wallpapers ~/Pictures/
+mv ~/tmp/Wallpapers ~/Pictures/
 
 # Zathura
 mkdir -p ~/.config/zathura
