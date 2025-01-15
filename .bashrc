@@ -16,6 +16,9 @@ alias open='xdg-open'
 # [usenamae@hostname pwd]$ with color
 #PS1="\[\e[36m\][\[\e[m\]\[\e[36m\]\u\[\e[m\]\[\e[36m\]@\[\e[m\]\[\e[36m\]\h\[\e[m\]\[\e[36m\] \[\e[m\]\[\e[33m\]\w\[\e[m\]\[\e[36m\]]\[\e[m\]\[\e[36m\]\\$\[\e[m\] "
 
+# username@hostname $
+# PS1='\[\e[38;5;26;1m\]\u@\H\[\e[0m\] \$ '
+
 # [username@hostname] pwd git-branch$
 # PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='[\u@\h] \w ${PS1_CMD1}\\$ '
 
