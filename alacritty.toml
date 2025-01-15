@@ -21,9 +21,3 @@ style = "Italic"
 [font.normal]
 family = "Sauce Code Pro"
 style = "Regular"
-
-[keyboard]
-bindings = [
-   { key = "Return", mods = "Alt|Shift", action = "SpawnNewInstance" }
-]
-
