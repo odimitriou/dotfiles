@@ -1,5 +1,5 @@
 # Update .bashrc
-mv ./.bashrc ~/.bashrc
+mv ~/dotfiles/.bashrc ~/.bashrc
 source ~/.bashrc
 
 # Install themes for alacritty
@@ -8,13 +8,13 @@ git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/theme
 
 # Set Alacritty configuration
 mkdir -p ~/.config/alacritty
-mv ./alacritty.toml ~/.config/alacritty/alacritty.toml
+mv ~/dotfiles/alacritty.toml ~/.config/alacritty/alacritty.toml
 
 # Set tmux.conf
 mkdir -p ~/.config/tmux
-mv ./tmux.conf ~/.config/tmux/tmux.conf
+mv ~/dotfiles/tmux.conf ~/.config/tmux/tmux.conf
 tmux source ~/.config/tmux/tmux.conf
 
 # Zathura
 mkdir -p ~/.config/zathura
-mv ./zathurarc ~/.config/zathura/ 
+mv ~/dotfiles/zathurarc ~/.config/zathura/ 
