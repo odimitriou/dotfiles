@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Update .bashrc
 mv ~/dotfiles/.bashrc ~/.bashrc
 source ~/.bashrc
