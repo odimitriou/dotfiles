@@ -20,3 +20,8 @@ tmux source ~/.config/tmux/tmux.conf
 # Zathura
 mkdir -p ~/.config/zathura
 mv ~/dotfiles/zathurarc ~/.config/zathura/ 
+
+# NeoVim
+mv ~/.config/nvim ~/.config/nvim.bak
+rm -rf ~/.config/nvim
+mv ~/dotfiles/nvim ~/.config/nvim
