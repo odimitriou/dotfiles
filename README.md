@@ -6,7 +6,7 @@ alacritty tmux zathura neovim
 ### Installation
 Clone the repo
 ```bash
-git clone https://github.com/odimitriou/dotfiles.git ~/dotfiles
+git clone --depth=1 https://github.com/odimitriou/dotfiles.git ~/dotfiles
 ```
 Run the installation script
 ```bash
