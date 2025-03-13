@@ -1,7 +1,7 @@
 # Dotfiles
 ### Dependancies
 ```
-tmux zathura neovim ghostty
+tmux zathura neovim ghostty yazi ffmpeg p7zip jq poppler fd ripgrep fzf zoxide imagemagick
 ```
 ### Installation
 Clone the repo
