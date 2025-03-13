@@ -1,0 +1,26 @@
+[ui]
+foreground = "#c9d1d9"
+background = "#0d1117"
+cursor = "#58a6ff"
+selection = "#1f6feb"
+
+[syntax]
+black = "#484f58"
+red = "#da3633"
+green = "#238636"
+yellow = "#dbab09"
+blue = "#58a6ff"
+magenta = "#bc8cff"
+cyan = "#39c5cf"
+white = "#b1bac4"
+
+[syntax_bright]
+black = "#6e7681"
+red = "#f08888"
+green = "#56d364"
+yellow = "#eac54f"
+blue = "#79c0ff"
+magenta = "#d2a8ff"
+cyan = "#56d4dd"
+white = "#f0f6fc"
+
