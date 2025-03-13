@@ -1,7 +1,7 @@
 # Dotfiles
 ### Dependancies
 ```
-alacritty tmux zathura neovim
+tmux zathura neovim ghostty
 ```
 ### Installation
 Clone the repo
