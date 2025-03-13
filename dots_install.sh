@@ -12,6 +12,10 @@ git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/theme
 mkdir -p ~/.config/alacritty
 mv ~/dotfiles/alacritty.toml ~/.config/alacritty/alacritty.toml
 
+# Ghostty
+midir -p ~/.config/ghostty
+mv ~/dotfiles/ghostty.conf ~/.config/ghostty/config
+
 # Set tmux.conf
 mkdir -p ~/.config/tmux
 mv ~/dotfiles/tmux.conf ~/.config/tmux/tmux.conf
