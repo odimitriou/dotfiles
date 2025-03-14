@@ -1,11 +1,15 @@
 #!/bin/bash
 
+# Wallpapers
+mkdir -p ~/Pictures
+mv ~/dotfiles/Wallpapers ~/Pictures
+
 # Update .bashrc
 mv ~/dotfiles/.bashrc ~/.bashrc
 source ~/.bashrc
 
 # Ghostty
-midir -p ~/.config/ghostty
+mkdir -p ~/.config/ghostty
 mv ~/dotfiles/ghostty.conf ~/.config/ghostty/config
 
 # Yazi
