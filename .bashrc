@@ -7,6 +7,7 @@ alias ll='ls -la'
 alias ls='ls -l --color=auto'
 alias grep='grep --color=auto'
 alias open='xdg-open'
+alias cat='bat'
 
 ################## BASH PROMPTS ####################
 
@@ -24,3 +25,9 @@ alias open='xdg-open'
 
 # workdir$
 PS1='\[\e[38;5;40;1m\]\w\[\e[0m\]\$ '
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/oran/google-cloud-sdk/path.bash.inc' ]; then . '/home/oran/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/oran/google-cloud-sdk/completion.bash.inc' ]; then . '/home/oran/google-cloud-sdk/completion.bash.inc'; fi
