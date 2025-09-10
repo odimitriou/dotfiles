@@ -1,8 +1,22 @@
 -- Standalone plugins with less than 10 lines of config go here
 return {
   {
-    -- Hints keybinds
-    'folke/which-key.nvim',
+    "folke/which-key.nvim",
+    event = "VeryLazy",
+    opts = {
+      -- your configuration comes here
+      -- or leave it empty to use the default settings
+      delay = 750
+    },
+    keys = {
+      {
+        "<leader>?",
+        function()
+          require("which-key").show({ global = false })
+        end,
+        desc = "Buffer Local Keymaps (which-key)",
+      },
+    },
   },
   -- {
   --   -- Autoclose parentheses, brackets, quotes, etc.

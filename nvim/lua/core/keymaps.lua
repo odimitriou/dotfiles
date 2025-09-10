@@ -7,8 +7,6 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
-local opts = { noremap = true, silent = true }
-
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
@@ -25,14 +23,14 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
 
 -- Window management
-vim.keymap.set('n', '<leader>|', '<C-w>v', opts) -- split window vertically
-vim.keymap.set('n', '<leader>-', '<C-w>s', opts) -- split window horizontally
+vim.keymap.set('n', '<leader>|', '<C-w>v', { desc = 'Split vertically' })
+vim.keymap.set('n', '<leader>-', '<C-w>s', { desc = 'Split horizontally' })
 
 -- Resize with arrows
-vim.keymap.set('n', '<Up>', ':resize -2<CR>', opts)
-vim.keymap.set('n', '<Down>', ':resize +2<CR>', opts)
-vim.keymap.set('n', '<Left>', ':vertical resize -2<CR>', opts)
-vim.keymap.set('n', '<Right>', ':vertical resize +2<CR>', opts)
+vim.keymap.set('n', '<Up>', ':resize -2<CR>', { desc = 'Rezise window Up' })
+vim.keymap.set('n', '<Down>', ':resize +2<CR>', { desc = 'Rezise window Down' })
+vim.keymap.set('n', '<Left>', ':vertical resize -2<CR>', { desc = 'Rezise window Left' })
+vim.keymap.set('n', '<Right>', ':vertical resize +2<CR>', { desc = 'Rezise window Right' })
 
 -- Keybinds to make split navigation easier.
 vim.keymap.set('n', '<C-h>', '<C-w><C-h>', { desc = 'Move focus to the left window' })
@@ -47,15 +45,15 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 -- vim.keymap.set("n", "<C-S-k>", "<C-w>K", { desc = "Move window to the upper" })
 
 -- delete single character without copying into register
-vim.keymap.set('n', 'x', '"_x', opts)
+vim.keymap.set('n', 'x', '"_x')
 
 -- Vertical scroll and center
-vim.keymap.set('n', '<C-d>', '<C-d>zz', opts)
-vim.keymap.set('n', '<C-u>', '<C-u>zz', opts)
+vim.keymap.set('n', '<C-d>', '<C-d>zz')
+vim.keymap.set('n', '<C-u>', '<C-u>zz')
 
 -- Stay in indent mode
-vim.keymap.set('v', '<', '<gv', opts)
-vim.keymap.set('v', '>', '>gv', opts)
+vim.keymap.set('v', '<', '<gv')
+vim.keymap.set('v', '>', '>gv')
 
 -- Keep last yanked when pasting
-vim.keymap.set('v', 'p', '"_dP', opts)
+vim.keymap.set('v', 'p', '"_dP')

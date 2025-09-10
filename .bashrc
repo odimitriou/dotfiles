@@ -16,10 +16,12 @@ clr='\[\033[00m\]'      # Reset
 
 # ------------- Aliases ----------------
 
-alias ll='ls -la'
+alias ll='ls -lha'
 alias ls='ls -l --color=auto'
 alias grep='grep --color=auto'
 alias open='xdg-open'
+alias v='vim '
+alias nv='nvim '
 
 # View the calender by typing the first three letters of the month.
 alias jan='cal -m January'
@@ -35,13 +37,21 @@ alias oct='cal -m October'
 alias nov='cal -m November'
 alias dec='cal -m December'
 
+# Git
+alias gs='git status'
+alias ga='git add .'
+alias gc='git commit -m '
 
 # ------------- Custom Bash Prompts ------------------
 
 # workdir(branch)$
-# PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\w[${PS1_CMD1}]\\$'
-PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\[\e[38;5;39m\]\w\[\e[91m\][${PS1_CMD1}]\[\e[0m\]\\$ '
-# PS1='\[\e[38;5;39m\]\w\[\e[0m\]\\$ '
+# PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\[\e[92m\]\w\[\e[38;5;214m\](${PS1_CMD1})\[\e[0m\]\\$ '
+
+# workdir branch $ 
+PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\[\e[92m\]\w\[\e[0m\] \[\e[38;5;214m\]${PS1_CMD1}\[\e[0m\] \\$ '
+
+# username@hostname workdir:gitbranch $
+# PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\[\e[92m\]\u@\h\[\e[0m\] \[\e[38;5;214m\]\w\[\e[0m\]:\[\e[38;5;39m\]${PS1_CMD1}\[\e[0m\] \n\\$ '
 
 # --------------- Miscelanious ----------------------------
 
