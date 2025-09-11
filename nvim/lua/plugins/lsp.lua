@@ -199,6 +199,15 @@ return {
 
       vim.lsp.config(server, cfg)
       vim.lsp.enable(server)
+
+      -- Optional: also show inline text
+      vim.diagnostic.config({
+        virtual_text = true,       -- show message after the line
+        signs = true,              -- keep the E/W signs
+        underline = true,
+        update_in_insert = false,  -- don’t update while typing
+        severity_sort = true,
+      })
     end
   end,
 }
