@@ -22,11 +22,11 @@ require('lazy').setup {
   require 'plugins.lualine',
   require 'plugins.treesitter',
   require 'plugins.telescope',
-  require 'plugins.lsp',
-  require 'plugins.autocomplete',
+  -- require 'plugins.lsp',
+  -- require 'plugins.autocomplete',
   require 'plugins.alpha',
   require 'plugins.misc',
 }
 
 vim.cmd('colorscheme github_dark_default')
-vim.api.nvim_set_hl(0, "Normal", { bg = "#000000" }) -- Black background
+-- vim.api.nvim_set_hl(0, "Normal", { bg = "#000000" }) -- Black background
