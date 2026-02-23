@@ -17,6 +17,7 @@ a collections of wallpapers.
 | `.bashrc` | Custom Bash shell configuration including aliases, environment variables, and prompt settings. |
 | `.vimrc` | Minimal vim configuration without any plugins. |
 | `/nvim`  | Minimal neovim configuration with basic plugins. Current version disables mosts plugins, keeping only the essentials for an easy to use and configure experience.  |
+| `tmux.conf` | Configuration file for tmux. | 
 | `alacritty.toml` | Alacritty terminal emulator configuration including colors, fonts, and scrolling behavior. |
 | `ghostty.conf` | Ghostty terminal emulator configuration file. | 
 | `/Wallpapers` | A collection of desktop wallpapers
