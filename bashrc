@@ -22,6 +22,7 @@ alias grep='grep --color=auto'
 alias open='xdg-open'
 alias v='vim '
 alias nv='nvim '
+alias bat='batcat'
 
 # View the calender by typing the first three letters of the month.
 alias jan='cal -m January'
@@ -48,7 +49,9 @@ alias gc='git commit -m '
 # PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\[\e[92m\]\w\[\e[38;5;214m\](${PS1_CMD1})\[\e[0m\]\\$ '
 
 # workdir branch $ 
-PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\[\e[92m\]\w\[\e[0m\] \[\e[38;5;214m\]${PS1_CMD1}\[\e[0m\] \\$ '
+# PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\[\e[92m\]\w\[\e[0m\] \[\e[38;5;214m\]${PS1_CMD1}\[\e[0m\] \\$ '
+PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\[\e[92m\]\w\[\e[0m\] \[\e[38;5;208m\]${PS1_CMD1}\[\e[0m\] \\$ '
+
 
 # username@hostname workdir:gitbranch $
 # PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\[\e[92m\]\u@\h\[\e[0m\] \[\e[38;5;214m\]\w\[\e[0m\]:\[\e[38;5;39m\]${PS1_CMD1}\[\e[0m\] \n\\$ '

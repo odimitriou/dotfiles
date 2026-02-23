@@ -1,24 +1,58 @@
 [general]
-import = [ "~/.config/alacritty/themes/themes/github_dark_colorblind.toml" ]
+# import = [ "~/.config/alacritty/themes/themes/github_dark_colorblind.toml" ]
+working_directory = "None"  # Shell starts in the working directory of the parent process
+live_config_reload = true   # Changes requires restart
 
 [window]
+dimensions = { columns = 100, lines = 30 }
 opacity = 1
+decorations = "None"
 
 [font]
-size = 12
+normal = { family = "SauceCodePro Nerd Font Mono", style = "Regular" }
+bold   = { family = "SauceCodePro Nerd Font Mono", style = "Bold" }
+italic = { family = "SauceCodePro Nerd Font Mono", style = "Italic" }
 
-[font.bold]
-style = "Bold"
-family = "SauceCodePro Nerd Font"
+# normal = { family = "Monospace", style = "Regular" }
+# bold   = { family = "Monospace", style = "Bold" }
+# italic = { family = "Monospace", style = "Italic" }
 
-[font.bold_italic]
-family = "SauceCodePro Nerd Font"
-style = "Bold Italic"
+size = 12.0
+offset = { x = 0, y = 0 }       # x -> letter spacing, y -> line spacing
 
-[font.italic]
-family = "SauceCodePro Nerd Font"
-style = "Italic"
+[selection]
+save_to_clipboard = true
 
-[font.normal]
-family = "SauceCodePro Nerd Font"
-style = "Regular"
+[cursor]
+style = { shape = "Beam", blinking = "Off" } 
+
+[mouse]
+hide_when_typing = true
+
+[colors.primary]
+background = '#000000'
+foreground = '#dddddd'
+
+[colors.cursor]
+text   = '#111111'
+cursor = '#cccccc'
+
+[colors.normal]
+black   = '#000000'
+red     = '#cc0403'
+green   = '#19cb00'
+yellow  = '#cecb00'
+blue    = '#0d73cc'
+magenta = '#cb1ed1'
+cyan    = '#0dcdcd'
+white   = '#dddddd'
+
+[colors.bright]
+black   = '#767676'
+red     = '#f2201f'
+green   = '#23fd00'
+yellow  = '#fffd00'
+blue    = '#1a8fff'
+magenta = '#fd28ff'
+cyan    = '#14ffff'
+white   = '#ffffff'

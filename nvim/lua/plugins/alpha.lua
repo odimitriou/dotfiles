@@ -54,7 +54,7 @@ return {
 
     }
 
-    dashboard.section.header.val = neovim_poison
+    dashboard.section.header.val = neovim_default
 
     dashboard.section.buttons.val = {
        dashboard.button("f", "  Find file", ":Telescope find_files <CR>"),

@@ -16,11 +16,11 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Set up plugins
 require('lazy').setup {
-  require 'plugins.neotree',
+  -- require 'plugins.neotree',
   require 'plugins.indent-line',
   require 'plugins.colorschemes',
   require 'plugins.lualine',
-  require 'plugins.treesitter',
+  -- require 'plugins.treesitter',
   require 'plugins.telescope',
   -- require 'plugins.lsp',
   -- require 'plugins.autocomplete',
@@ -28,5 +28,5 @@ require('lazy').setup {
   require 'plugins.misc',
 }
 
-vim.cmd('colorscheme github_dark_default')
+-- vim.cmd('colorscheme github_dark_default')
 -- vim.api.nvim_set_hl(0, "Normal", { bg = "#000000" }) -- Black background
