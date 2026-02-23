@@ -1,6 +1,6 @@
 # My Dotfiles
 
-![](./assets/preview.png)
+![](./assets/preview2.png)
 
 This repository contains my personal configuration files (dotfiles) for a consistent and efficient development environment across different machines.  
 
