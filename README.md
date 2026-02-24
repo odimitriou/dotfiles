@@ -81,7 +81,9 @@ cp ~/.dotfiles/Wallpapers ~/Pictures/
 
 ln -sf ~/.dotfiles/.bashrc ~/.bashrc
 ln -sf ~/.dotfiles/.vimrc ~/.vimrc
+```
 
+```bash
 mkdir -p ~/.config/nvim
 ln -sf ~/.dotfiles/nvim/* ~/.config/nvim/
 ```
