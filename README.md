@@ -83,8 +83,8 @@ cp ~/.dotfiles/Wallpapers ~/Pictures/
 
 Bash and Vim
 ```bash
-ln -sf ~/.dotfiles/.bashrc ~/.bashrc
-ln -sf ~/.dotfiles/.vimrc ~/.vimrc
+ln -sf ~/.dotfiles/bashrc ~/.bashrc
+ln -sf ~/.dotfiles/vimrc ~/.vimrc
 ```
 
 Neovim
