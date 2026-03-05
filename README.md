@@ -36,12 +36,10 @@ Prefix = `Ctrl + a`
 
 | Keybinding | Action |
 |------------|--------|
-| `M-h`      | Select left pane |
-| `M-j`      | Select pane below |
-| `M-k`      | Select pane above |
-| `M-l`      | Select right pane |
-
-> `M-` stands for **Alt / Meta key**.
+| `Alt + h`      | Select left pane |
+| `Alt + j`      | Select pane below |
+| `Alt + k`      | Select pane above |
+| `Alt + l`      | Select right pane |
 
 ---
 
@@ -49,8 +47,8 @@ Prefix = `Ctrl + a`
 
 | Keybinding | Action |
 |------------|--------|
-|  `Prefix + \|`        | Split pane **horizontally** in the current path (`-hc "#{pane_current_path}"`) |
-| `Prefix + -`        | Split pane **vertically** in the current path (`-vc "#{pane_current_path}"`) |
+|  `Prefix + \|` | Split pane **horizontally** in CWD
+| `Prefix + -`   | Split pane **vertically** in CWD
 
 ---
 
@@ -58,10 +56,10 @@ Prefix = `Ctrl + a`
 
 | Keybinding | Action |
 |------------|--------|
-| `M-1`      | Select window 1 |
-| `M-2`      | Select window 2 |
-| `M-3`      | Select window 3 |
-| `M-4`      | Select window 4 |
+| `Alt + 1`    | Select window 1 |
+| `Alt + 2`    | Select window 2 |
+| `Alt + 3`    | Select window 3 |
+| `Alt + 4`    | Select window 4 |
 
 ---
 
@@ -70,7 +68,7 @@ Prefix = `Ctrl + a`
 Clone the repository:
 
 ```bash
-git clone --depth=1 https://github.com/yourusername/dotfiles.git ~/.dotfiles
+git clone --depth=1 https://github.com/odimitriou/dotfiles.git ~/.dotfiles
 ```
 
 ### Set up sym-links
