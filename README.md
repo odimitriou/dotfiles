@@ -14,8 +14,8 @@ a collections of wallpapers.
 
 | File / Directory | Description |
 |-----------------|-------------|
-| `.bashrc` | Custom Bash shell configuration including aliases, environment variables, and prompt settings. |
-| `.vimrc` | Minimal vim configuration without any plugins. |
+| `bashrc` | Custom Bash shell configuration including aliases, environment variables, and prompt settings. |
+| `vimrc` | Minimal vim configuration without any plugins. |
 | `/nvim`  | Minimal neovim configuration with basic plugins. Current version disables mosts plugins, keeping only the essentials for an easy to use and configure experience.  |
 | `tmux.conf` | Configuration file for tmux. | 
 | `alacritty.toml` | Alacritty terminal emulator configuration including colors, fonts, and scrolling behavior. |
@@ -73,16 +73,21 @@ Clone the repository:
 git clone --depth=1 https://github.com/yourusername/dotfiles.git ~/.dotfiles
 ```
 
-Set up sym-links
+### Set up sym-links
+
+WallPapers
 ```bash
-# Wallpappers
 mkdir -p ~/Pictures/
 cp ~/.dotfiles/Wallpapers ~/Pictures/
+```
 
+Bash and Vim
+```bash
 ln -sf ~/.dotfiles/.bashrc ~/.bashrc
 ln -sf ~/.dotfiles/.vimrc ~/.vimrc
 ```
 
+Neovim
 ```bash
 mkdir -p ~/.config/nvim
 ln -sf ~/.dotfiles/nvim/* ~/.config/nvim/
